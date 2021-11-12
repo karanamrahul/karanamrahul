@@ -1,4 +1,5 @@
-### Hi there 👋
+### 
+![](https://github.com/karanamrahul/karanamrahul/blob/main/header.png)
 
 ![github contribution grid snake animation](https://github.com/karanamrahul/karanamrahul/blob/main/github-contribution-grid-snake.svg)
 
