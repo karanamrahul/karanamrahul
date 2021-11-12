@@ -30,6 +30,13 @@ jobs:
         run: echo Hello, world!
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v0.0.18
+    
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.karanamrahul }}
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
 
       # Runs a set of commands using the runners shell
